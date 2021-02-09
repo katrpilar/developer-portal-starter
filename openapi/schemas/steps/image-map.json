@@ -184,9 +184,6 @@
               }
             },
             "additionalProperties": {"type": "string"},
-            "propertyNames": {
-              "pattern": "^[0-9a-zA-Z_]*$"
-            },
             "required": ["_id", "shape", "coords"]
           }]
         }
