@@ -15,7 +15,7 @@ export const theme = {
   colors: {
     // tonalOffset: 0.2,
     primary: {
-      main: '#227a88',
+      main: '#d0021b',
       // light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
       // dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
       // contrastText: ({ colors }) => readableColor(colors.primary.main),
@@ -45,8 +45,8 @@ export const theme = {
     //   contrastText: ({ colors }) => readableColor(colors.info.main),
     // },
     text: {
-      primary: '#424242',
-      // secondary: '#4e566d',
+      primary: '#3b4151',
+      secondary: '#3b4151',
     },
     // border: {
     //   dark: 'rgba(0,0,0, 0.15)',
@@ -87,13 +87,13 @@ export const theme = {
     //   contrastText: 'white'
     // },
     // footer: {
-      // main: ({ colors }) => colors.primary.main,
-      // contrastText: 'white'
+    // main: ({ colors }) => colors.primary.main,
+    // contrastText: 'white'
     // },
   },
 
   sidebar: {
-    backgroundColor: '#fafafa',
+    backgroundColor: '#ffffff',
     width: '260px',
   },
   // tocPanel: {
@@ -111,6 +111,40 @@ export const theme = {
       fontFamily: '"Source Sans Pro", sans-serif',
       fontWeight: '600',
     },
+    heading1: {
+      fontSize: '1.85714em',
+      fontWeight: '600',
+      fontFamily: ({ typography }) => typography.headings.fontFamily,
+      lineHeight: ({ typography }) => typography.lineHeight,
+      color: "#07183b",
+      capitalize: true,
+    },
+    heading2: {
+      fontSize: '1.57143em',
+      fontWeight: '600',
+      color: "#4d4d4d",
+      fontFamily: ({ typography }) => typography.headings.fontFamily,
+      lineHeight: ({ typography }) => typography.lineHeight,
+      capitalize: false,
+    },
+    heading3: {
+      fontSize: '1.27em',
+      fontWeight: '600',
+      color: "#4d4d4d",
+      fontFamily: ({ typography }) => typography.headings.fontFamily,
+      lineHeight: ({ typography }) => typography.lineHeight,
+      capitalize: false,
+    },
+    // heading4: {
+    // // ...
+    // },
+    // heading5: {
+    // // ...
+    // },
+    // heading6: {
+    // // ...
+    // },
+
     // heading1: {
     //   fontSize: '1.85714em',
     //   fontWeight: '600',
@@ -159,7 +193,7 @@ export const theme = {
     },
   },
   rightPanel: {
-    backgroundColor: '#263238',
+    backgroundColor: '#07183b',
     width: '40%',
     // textColor: '#ffffff',
   },

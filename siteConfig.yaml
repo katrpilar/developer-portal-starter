@@ -1,29 +1,30 @@
 meta:
-  title: Redocly Training
-  description: The best API documentation generator ever.
-  siteUrl: https://portal-demo.redoc.ly
-headerIcon: ./images/logo.png
+  title: Setster Developer Portal
+  description: Start booking appointments today starting with the Setster Developer Portal, with everything your need to solve complex scheduling.
+  siteUrl: https://www.setster.com/
+headerIcon: https://www.setster.com/landing-page/images/setster-logo.png
 enableToc: true
+showConsole: true
 oasDefinitions:
-  petstore: ./openapi/petstore.yaml
+  # petstore: ./openapi/petstore.yaml
+  setster: ./openapi/setster.json
   # add links to definitions in our API registry by using a fully qualified URL.
 stylesheets:
   - https://fonts.googleapis.com/css?family=Roboto:300,400,600,700
   - https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap
 #ga:
-  # you can use any options here from https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
-  # note that GA doesn't work in DEV
+# you can use any options here from https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
+# note that GA doesn't work in DEV
 #  trackingId: UA-45997213-1
 #scripts:
 #  - ./static/intercom.js
 nav:
-
   - label: Training exercises
     page: developer-portal/index.md
 
-  - label: External docs
-    icon: ./images/redocly-icon-white.png
-    href: https://docs.redoc.ly/developer-portal/introduction/
+  - label: Support
+    icon: https://cdn2.hubspot.net/hub/5361766/hubfs/Setster%20Logo%20Square%20Small-1.png?width=108&height=108
+    href: https://support.setster.com/hc/en-us
 
   - search: true
 
@@ -33,11 +34,11 @@ footer:
     - group: Legal
       items:
         - label: Terms of Use
-          href: 'https://redoc.ly/subscription-agreement/'
+          href: "https://redoc.ly/subscription-agreement/"
         - label: Privacy Notice
-          href: 'https://redoc.ly/privacy-policy/'
+          href: "https://redoc.ly/privacy-policy/"
         - label: Cookie Notice
-          href: 'https://redoc.ly/privacy-policy/'
+          href: "https://redoc.ly/privacy-policy/"
     - group: Support
       items:
         - label: FAQ

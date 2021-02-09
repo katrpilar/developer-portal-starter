@@ -46,8 +46,8 @@ Let's change the Jumbotron text within the H1 and H2 header components.
 ```md
 <Jumbotron>
   <NavBar location={props.location} standalone={false} />
-  <H1>Redocly training</H1>
-  <H2>A starter developer portal with training exercises</H2>
+  <H1>Setster Developers</H1>
+  <H2>Everything you need to Start Booking Appointments Today</H2>
 ```
 
 Next, let's change the buttons.
